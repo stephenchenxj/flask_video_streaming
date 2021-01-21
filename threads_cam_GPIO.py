@@ -185,10 +185,7 @@ class Camera(BaseCamera):
                     q_out.release()
                     #send email
                     print("sending email")
-                    time.sleep(1)
                     send_email(q_fname)
-                    time.sleep(1)
-                    send_email(filename)
                     
                 newEvent = True
                 
